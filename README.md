@@ -18,4 +18,17 @@ Backup/Snapshot vorher durchführen.
 Alfresco 4.1 -> Alfresco 23.4.1 mit über 800 Sites  
 Dauer: ca. 1h
 
-
+### copySitesUsers.py  
+#### Zweck:
+übertrage von einem alten Alfresco-Server die Site-Benutzer und Ihre Rechte auf einen neuen Alfresco-Server.  
+Es werden noch keine Dateien kopiert.
+#### Voraussetzungen:  
+beide Alfresco-Server sind gleichwertig konfiguriert.  
+auf beiden Server sind die selben Benutzer angelegt.  
+Die Variablen "mysrcsrv", "mysrcauth", "mydestsrv", "mydestauth" müssen vorher mit den eigenen Werten angepasst werden.  
+Backup/Snapshot vorher durchführen.
+#### Ausführung:
+  python3 copySitesUsers.py
+#### Erfahrungen:
+Alfresco 4.1 -> Alfresco 23.4.1 mit über 800 Sites  
+Dauer: ca. 30 min

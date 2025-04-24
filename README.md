@@ -32,3 +32,10 @@ Backup/Snapshot vorher durchführen.
 #### Erfahrungen:
 Alfresco 4.1 -> Alfresco 23.4.1 mit über 800 Sites  
 Dauer: ca. 30 min
+### js_List_Sites_and_Files.js
+#### Zweck:
+Zeige alle Seiten und die Anzahl ihrer jeweiligen Dateien an.
+#### Ausführung:
+in Alfresco:
+https://myalfresco.my.dom.ain/share/page/console/admin-console/javascript-console
+![screenshot](js_list_folders.png)

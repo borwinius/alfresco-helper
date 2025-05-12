@@ -5,7 +5,8 @@
 import requests
 import json
 
-myauth = f"https://myalfsrv.my.dom.ain/alfresco/service/api/person/changepassword/theusername"
+myurl = f"https://myalfsrv.my.dom.ain/alfresco/service/api/person/changepassword/theusername"
+myauth=("admin","admin")
 myjson = {'newpw': 'changeme'}
 x = requests.post(myurl, json = myjson, auth = myauth, verify=False)
 print(x.text)

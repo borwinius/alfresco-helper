@@ -39,3 +39,7 @@ Zeige alle Seiten und die Anzahl ihrer jeweiligen Dateien an.
 in Alfresco:
 https://myalfresco.my.dom.ain/share/page/console/admin-console/javascript-console
 ![screenshot](js_list_folders.png)
+
+### chguserpw:
+#### Zweck:
+resette als admin das (vergessene) Passwort eines Benutzers

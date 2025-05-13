@@ -4,7 +4,6 @@ import os, pwd, json, requests
 # ermittle aus einer Site die Benutzer und
 # erstelle diese mit den gleichen Rechten auf einem neuen Server
 
-
 mysrcsrv = 'https://mysrcsrv.my.dom.aim'
 mysrcauth = ("admin","mysecret")
 

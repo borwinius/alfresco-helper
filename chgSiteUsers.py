@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import os, pwd, json, requests
+# import os, pwd, 
+import json, requests
 # chgSiteUsers.py
 # ermittle in allen Alfresco-Sites(!) die Benutzer und Gruppen
 # und stufe diese auf Mitarbeiter und Gruppen nur noch mit Leserechten zurück

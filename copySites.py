@@ -2,7 +2,7 @@
 # copySites.py
 # copy Alfresco-Sites from an old to a new Server
 import requests
-#import os, pwd
+# import os, pwd
 import json
 
 ### Site auf neuem Alfresco-Server estellen / rb / 2025

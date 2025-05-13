@@ -2,8 +2,7 @@
 # chguserpw.py / rb / 2025
 # reset the userpassword to "changeme" for a user named "theusername"
 
-import requests
-import json
+import requests, json
 
 myurl = f"https://myalfsrv.my.dom.ain/alfresco/service/api/person/changepassword/theusername"
 myauth=("admin","admin")

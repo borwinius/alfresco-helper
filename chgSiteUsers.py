@@ -36,6 +36,6 @@ for entry in j:
       if "GROUP" in aT:
         group = entry["authority"]["fullName"]
         print("group: ",group,"role: ",role)
-        myurl = f"{mysrv}/alfresco/api/-default-/public/alfresco/versions/1/sites/{shname}/groupmembers/{group}"
+        myurl = f"{mysrv}/alfresco/api/-default-/public/alfresco/versions/1/sites/{shname}/group-members/{group}"
         myjson = {'role': myrole}
         x = requests.put(myurl, json = myjson, auth = myauth)

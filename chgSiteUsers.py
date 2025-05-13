@@ -8,7 +8,7 @@ import json, requests
 
 mysrv = 'http://myalfsrv.my.dom.ain:8080'
 myauth = ("admin","admin")
-myrole = 'SiteCollaborator'
+myrole = 'SiteConsumer'
 srcurl = f"{mysrv}/alfresco/service/api/sites"
 
 r = requests.get(srcurl, auth = myauth)
@@ -34,8 +34,8 @@ for entry in j:
         x = requests.put(myurl, json = myjson, auth = myauth)
 
       if "GROUP" in aT:
-        group = entry["authority"]["shortName"]
+        group = entry["authority"]["fullName"]
         print("group: ",group,"role: ",role)
-        myurl = f"{mysrv}/alfresco/api/-default-/public/alfresco/versions/1/sites/{shname}/members/{group}"
+        myurl = f"{mysrv}/alfresco/api/-default-/public/alfresco/versions/1/sites/{shname}/groupmembers/{group}"
         myjson = {'role': myrole}
         x = requests.put(myurl, json = myjson, auth = myauth)

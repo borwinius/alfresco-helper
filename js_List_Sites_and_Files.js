@@ -1,3 +1,4 @@
+//js_List_sites_and_Files.js
 // https://myalfresco.my.dom.ain/share/page/console/admin-console/javascript-console
 // liste all Sites und die Anzahl der Dateien auf / rb / 2025
 var s = {};

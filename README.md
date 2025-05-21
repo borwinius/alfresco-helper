@@ -50,5 +50,5 @@ ermittle den Pfad für eine Datei zur Weiterverarbeitung bsp. webdav
 #### Voraussetzungen:
 die werte für mysrv, myauth, parentID müssen vorher angepasst werden
 #### Ausführung:
-  python3 getnodepath.py
+  `python3 getnodepath.py`
   

@@ -43,3 +43,12 @@ https://myalfresco.my.dom.ain/share/page/console/admin-console/javascript-consol
 ### chguserpw:
 #### Zweck:
 resette als admin das (vergessene) Passwort eines Benutzers
+
+### getnodepath.py
+#### Zweck:
+ermittle den Pfad für eine Datei zur Weiterverarbeitung bsp. webdav
+#### Voraussetzungen:
+die werte für mysrv, myauth, parentID müssen vorher angepasst werden
+#### Ausführung:
+  python3 getnodepath.py
+  

@@ -1,5 +1,5 @@
 #!bin/bash
-# getcmis_with_curl per xml / js
+# getcmis_with_curl.sh per xml / rb / 2025
 
 echo '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'>query.xml
 echo '<cmis:query xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/">'>>query.xml
